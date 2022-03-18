@@ -14,4 +14,12 @@ function numeroParioDispari(numero) {
     }
 }
 
-result.innerHTML = `Il numero da te scelto : ${numero} è ${numeroParioDispari(numero)}`
+// result.innerHTML = `Il numero da te scelto : ${numero} è ${numeroParioDispari(numero)}`
+
+// oppure
+
+if (numeroParioDispari(numero) == 'pari') {
+    result.innerHTML = `${numero} è pari`;
+} else {
+    result.innerHTML = `${numero} è dispari`;
+}
