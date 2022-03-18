@@ -14,5 +14,4 @@ function numeroParioDispari(numero) {
     }
 }
 
-result.innerHTML = `Il numero da te scelto è ${numeroParioDispari(numero)}`
-numeroParioDispari();
+result.innerHTML = `Il numero da te scelto : ${numero} è ${numeroParioDispari(numero)}`
